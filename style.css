@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 600px;
+}
+
+th {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    width: 200px;
+}
+
+.main {
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.steal {
+    margin-top: 100px;
+}

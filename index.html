@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Thief</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="handleUi.js"></script>
+        <script src="steal.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <label>Вместимость мешка
+                <input id="capacity" type="number" />
+            </label>
+            <table id="store">
+                <tr>
+                    <th>Цвет</th>
+                    <th>Количество</th>
+                    <th>Удалить строку</th>
+                </tr>
+            </table>
+            <button onclick="onAddLine()">Добавить строку</button>
+            
+            <button onclick="onSteal()" class="steal">Украсть</button>
+            
+            <table id="bag">
+                <tr>
+                    <th>Цвет</th>
+                    <th>Количество</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
